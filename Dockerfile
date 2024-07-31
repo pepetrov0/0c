@@ -1,4 +1,4 @@
-FROM alpine as build
+FROM alpine AS build
 
 RUN apk update && apk add cmake make gcc g++ cppzmq spdlog-dev
 WORKDIR /opt/build
